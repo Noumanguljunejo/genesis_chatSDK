@@ -117,7 +117,7 @@
 /* Begin PBXFileReference section */
 		023BCEE2C065C24383278343C4EFAADD /* SuggestAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SuggestAPI.swift; path = build/src/APIs/SuggestAPI.swift; sourceTree = "<group>"; };
 		05773C2616BBA5C6AD673CC04884D343 /* PureCloudPlatformClientV2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PureCloudPlatformClientV2-dummy.m"; sourceTree = "<group>"; };
-		0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2 */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PureCloudPlatformClientV2; path = PureCloudPlatformClientV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PureCloudPlatformClientV2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C18A8693B531FA3CBEBBE04F5C2D80B /* LanguageUnderstandingAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LanguageUnderstandingAPI.swift; path = build/src/APIs/LanguageUnderstandingAPI.swift; sourceTree = "<group>"; };
 		0D38BACB8DE004D1CFF6FE9DF60A2EE4 /* LogCaptureAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LogCaptureAPI.swift; path = build/src/APIs/LogCaptureAPI.swift; sourceTree = "<group>"; };
 		101F6F06E145135E8F2C71E975AB182A /* Pods-ChatSDKExample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ChatSDKExample-Info.plist"; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 		96EA241A70F8FB9B0D3A47B3D385C6CF /* IntegrationsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntegrationsAPI.swift; path = build/src/APIs/IntegrationsAPI.swift; sourceTree = "<group>"; };
 		9715F6BC81548CA431EEFD9E8C435C7F /* Pods-ChatSDKExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ChatSDKExample-dummy.m"; sourceTree = "<group>"; };
 		9AD1EBA93CF04E95E627BFCAB12457DC /* WorkforceManagementAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WorkforceManagementAPI.swift; path = build/src/APIs/WorkforceManagementAPI.swift; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E144A9A7B6093CD11531148CFDBF824 /* TextbotsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextbotsAPI.swift; path = build/src/APIs/TextbotsAPI.swift; sourceTree = "<group>"; };
 		A57EA030147DECA766C84C2D5E023AE5 /* UploadsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UploadsAPI.swift; path = build/src/APIs/UploadsAPI.swift; sourceTree = "<group>"; };
 		A7353564B5EF0416F920BB924619B68A /* PlatformAPIModelsP2.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PlatformAPIModelsP2.swift; path = build/src/Models/PlatformAPIModelsP2.swift; sourceTree = "<group>"; };
@@ -212,7 +212,7 @@
 		D694F3718E90DBA65CF69867C3F8F4CF /* ExternalContactsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExternalContactsAPI.swift; path = build/src/APIs/ExternalContactsAPI.swift; sourceTree = "<group>"; };
 		D6B78CA12082657978D3579C2E542F11 /* Pods-ChatSDKExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ChatSDKExample.modulemap"; sourceTree = "<group>"; };
 		D7A86AC77FB8FF95659692E19730E8BF /* CodableHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodableHelper.swift; path = build/src/CodableHelper.swift; sourceTree = "<group>"; };
-		D80093EA4E7F308327B86CFA72459E0E /* Pods-ChatSDKExample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-ChatSDKExample"; path = Pods_ChatSDKExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D80093EA4E7F308327B86CFA72459E0E /* Pods_ChatSDKExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatSDKExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA43C631C96DB88CFD088D12F380846D /* QualityAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QualityAPI.swift; path = build/src/APIs/QualityAPI.swift; sourceTree = "<group>"; };
 		DAEB312D37428B912EF896CC8F9A7850 /* WebChatAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebChatAPI.swift; path = build/src/APIs/WebChatAPI.swift; sourceTree = "<group>"; };
 		DE084D57CA31142E493481DAB76B5F9C /* WebDeploymentsAPI.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WebDeploymentsAPI.swift; path = build/src/APIs/WebDeploymentsAPI.swift; sourceTree = "<group>"; };
@@ -297,8 +297,8 @@
 		8FA7DF01E199C40561678911255EEF40 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D80093EA4E7F308327B86CFA72459E0E /* Pods-ChatSDKExample */,
-				0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2 */,
+				D80093EA4E7F308327B86CFA72459E0E /* Pods_ChatSDKExample.framework */,
+				0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -397,7 +397,6 @@
 				9AD1EBA93CF04E95E627BFCAB12457DC /* WorkforceManagementAPI.swift */,
 				3A2AE26D9B9A13C1C75C1666C3065127 /* Support Files */,
 			);
-			name = PureCloudPlatformClientV2;
 			path = PureCloudPlatformClientV2;
 			sourceTree = "<group>";
 		};
@@ -466,7 +465,7 @@
 			);
 			name = "Pods-ChatSDKExample";
 			productName = Pods_ChatSDKExample;
-			productReference = D80093EA4E7F308327B86CFA72459E0E /* Pods-ChatSDKExample */;
+			productReference = D80093EA4E7F308327B86CFA72459E0E /* Pods_ChatSDKExample.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		9735C173F115309C7F799E0518ECDED4 /* PureCloudPlatformClientV2 */ = {
@@ -484,7 +483,7 @@
 			);
 			name = PureCloudPlatformClientV2;
 			productName = PureCloudPlatformClientV2;
-			productReference = 0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2 */;
+			productReference = 0B552262E7A2ED575AC942342C9F865E /* PureCloudPlatformClientV2.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -718,11 +717,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XR599CKP4D;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = XR599CKP4D;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -820,18 +819,18 @@
 			baseConfigurationReference = 39DE354638C596ABCFED432B47FB9BB6 /* PureCloudPlatformClientV2.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XR599CKP4D;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = XR599CKP4D;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -857,11 +856,11 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XR599CKP4D;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = XR599CKP4D;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -894,18 +893,18 @@
 			baseConfigurationReference = 882CD1828CD7C85CF2B60A363C01DC52 /* PureCloudPlatformClientV2.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				"DEVELOPMENT_TEAM[sdk=iphoneos*]" = XR599CKP4D;
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = XR599CKP4D;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/PureCloudPlatformClientV2/PureCloudPlatformClientV2-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

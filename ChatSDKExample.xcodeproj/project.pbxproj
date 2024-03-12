@@ -7,14 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8CB5B3AC2BA02CE20008057B /* Pods_ChatSDKExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF0F24BDD3E91F078369C36 /* Pods_ChatSDKExample.framework */; };
+		8CB5B3AD2BA02CE20008057B /* Pods_ChatSDKExample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CDF0F24BDD3E91F078369C36 /* Pods_ChatSDKExample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		AAFB9CC42B9F185600795E00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB9CC32B9F185600795E00 /* AppDelegate.swift */; };
 		AAFB9CC62B9F185600795E00 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB9CC52B9F185600795E00 /* SceneDelegate.swift */; };
 		AAFB9CC82B9F185600795E00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAFB9CC72B9F185600795E00 /* ViewController.swift */; };
 		AAFB9CCB2B9F185600795E00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFB9CC92B9F185600795E00 /* Main.storyboard */; };
 		AAFB9CCD2B9F185700795E00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AAFB9CCC2B9F185700795E00 /* Assets.xcassets */; };
 		AAFB9CD02B9F185700795E00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAFB9CCE2B9F185700795E00 /* LaunchScreen.storyboard */; };
-		AD3C7F4805294F210AB3530D /* Pods_ChatSDKExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDF0F24BDD3E91F078369C36 /* Pods_ChatSDKExample.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8CB5B3AE2BA02CE20008057B /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				8CB5B3AD2BA02CE20008057B /* Pods_ChatSDKExample.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		30120BA9DAEA09964468B325 /* Pods-ChatSDKExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatSDKExample.debug.xcconfig"; path = "Target Support Files/Pods-ChatSDKExample/Pods-ChatSDKExample.debug.xcconfig"; sourceTree = "<group>"; };
@@ -35,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD3C7F4805294F210AB3530D /* Pods_ChatSDKExample.framework in Frameworks */,
+				8CB5B3AC2BA02CE20008057B /* Pods_ChatSDKExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,7 +95,6 @@
 				30120BA9DAEA09964468B325 /* Pods-ChatSDKExample.debug.xcconfig */,
 				6596604D33359120C5A1B02F /* Pods-ChatSDKExample.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +118,7 @@
 				AAFB9CBD2B9F185600795E00 /* Frameworks */,
 				AAFB9CBE2B9F185600795E00 /* Resources */,
 				533AFBDF412D9B4ABAA030A3 /* [CP] Embed Pods Frameworks */,
+				8CB5B3AE2BA02CE20008057B /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -272,7 +287,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -335,7 +350,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -362,12 +377,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XR599CKP4D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatSDKExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,12 +406,14 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XR599CKP4D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ChatSDKExample/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
